@@ -13,7 +13,31 @@ public class Character {
             this.catchPhrase = catchPhrase;
         }
         
+        public Character(){
+            
+        }
+        
         public void saySomething() {
             System.out.println(this.catchPhrase);
         }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public String getCatchPhrase() {
+        return catchPhrase;
+    }
+
+ 
+        
+        
 }
