@@ -1,5 +1,7 @@
 package com.mycompany.ejercicio1;
 
+import people.Character;
+
 public class Ejercicio1 {
 
     public static void main(String[] args) {
@@ -11,23 +13,5 @@ public class Ejercicio1 {
         
         Character Caine = new Character("Caine", 400, 'M', "Ayuda Pomni, me estoy haciendo peruano");
         Caine.saySomething();
-    }
-    
-    static class Character {
-        String name;
-        int age;
-        char gender;
-        String catchPhrase;
-
-        public Character(String name, int age, char gender, String catchPhrase) {
-            this.name = name;
-            this.age = age;
-            this.gender = gender;
-            this.catchPhrase = catchPhrase;
-        }
-        
-        void saySomething() {
-            System.out.println(this.catchPhrase);
-        }
     }
 }
